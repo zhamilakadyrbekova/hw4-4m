@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+}
+
+.icon {
+  font-size: 72px;
+  line-height: 1;
+}
+
+.info {
+  min-width: 0;
+}
+
+.city {
+  margin: 0;
+  font-size: 22px;
+}
+
+.temp {
+  margin: 4px 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.description {
+  margin: 0;
+  color: #475569;
+}
+
+.wind {
+  margin: 8px 0 0;
+  font-size: 14px;
+  color: #64748b;
+}
